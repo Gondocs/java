@@ -30,7 +30,7 @@ public class Teszt {
         
         KeresoKutya k2 = new KeresoKutya("Rex", 10, "Nemet juhasz", 100);
         System.out.println(k2.toString());
-        System.out.println("Keresesi hatekonysadga: " + k2.getKeresesiHatekonysag());
+        System.out.println("Keresesi hatekonysaga: " + k2.getKeresesiHatekonysag());
         
         
 

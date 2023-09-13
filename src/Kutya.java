@@ -7,6 +7,8 @@ public class Kutya {
     
     // Kutya konstruktor (Neve csak ugyanaz lehet, mint a classnak)
     public Kutya(String nev, int kor, String fajta) {
+        
+        // this: az aktuális objektum adattagjaira hivatkozunk.
         this.nev = nev;
         this.kor = kor;
         this.fajta = fajta;

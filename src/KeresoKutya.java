@@ -9,6 +9,7 @@ public class KeresoKutya extends Kutya {
         // this.nev = nev; nem működik, mert az ősosztályban private
         
         // ez már igen, kiterjesztem az eredeti osztályt és felruházom új műveletekkel.
+        // super = eredeti latinul
         super(nev, kor, fajta);
         this.keresesiHatekonysag = keresesiHatekonysag;
         
@@ -17,5 +18,13 @@ public class KeresoKutya extends Kutya {
     public int getKeresesiHatekonysag() {
         return keresesiHatekonysag;
     }
+
+    // superrel elérem az ősműveletet, majd kiegészítem.
+    public String toString() {
+        return super.toString()
+                + "\n Keresesi hatekonysaga: " + keresesiHatekonysag + "%";
+    }
+    
+    
         
 }
