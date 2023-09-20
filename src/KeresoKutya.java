@@ -26,5 +26,5 @@ public class KeresoKutya extends Kutya {
     }
     
     
-        
+        // HÁZI:: a keresőkutyát származtassuk tovább, legyen az új neve: árvízkeresőkutya, legyen egy int max vízmélység.
 }
